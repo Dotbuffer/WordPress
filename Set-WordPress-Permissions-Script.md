@@ -2,6 +2,7 @@ This script was posted on: [Dotbuffer.com Blog](http://dotbuffer.com/script-conf
 
 Within your root WordPress directory create an empty file and paste the following content make sure you change the appropriate changeme code lines.
 
+
 ```bash
 #!/bin/bash
 #
