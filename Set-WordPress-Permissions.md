@@ -1,6 +1,6 @@
 This script was posted on: [Dotbuffer.com Blog](http://dotbuffer.com/script-configure-wordpress-permissions/)
 
-1. Within your root WordPress directory create an empty file and paste the following content make sure you change the appropriate changeme code lines.
+Within your root WordPress directory create an empty file and paste the following content make sure you change the appropriate changeme code lines.
 
 ```bash
 #!/bin/bash
@@ -35,14 +35,14 @@ find ${WP_ROOT}/wp-content -exec chgrp ${WS_GROUP} {} ;
 find ${WP_ROOT}/wp-content -type d -exec chmod 775 {} ;
 find ${WP_ROOT}/wp-content -type f -exec chmod 664 {} ;
 ```
-2. Save the file as wordpress-perms.sh and set appropriate permissions for that script file using the following command:
+Save the file as wordpress-perms.sh and set appropriate permissions for that script file using the following command:
 
 chmod +x wordpress-perms.sh
 
-3. Run the script with the following command:
+Run the script with the following command:
 
 ./wordpress-perms.sh
 
-4. After successful execution delete wordpress-perms.sh script file and then you are done.
+After successful execution delete wordpress-perms.sh script file and then you are done.
 
 rm wordpress-perms.sh
