@@ -1,4 +1,4 @@
-This script was posted on: [Dotbuffer.com Blog](http://dotbuffer.com/script-configure-wordpress-permissions/)
+This script was posted on: [Webtechmag.com Blog](http://webtechmag.com/wordpress-file-permissions-script/)
 
 Within your root WordPress directory create an empty file and paste the following content make sure you change the appropriate changeme code lines.
 
